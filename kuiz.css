@@ -1,0 +1,68 @@
+*,
+html{
+  padding : 0;
+  margin : 0;
+}
+
+/* BAGIAN ATAS KUIZ */
+
+.bagian-atas-kuiz{
+  width : 100% ;
+  background-color: rgb(58, 25, 201);
+  height : 15vh;
+  box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+-webkit-box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+-moz-box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+}
+
+.ul-bagian-atas-kuiz{
+  display : flex;
+  height : 60px;
+  justify-content : center;
+  align-items: center;
+  padding : 20px;
+}
+
+.li-bagian-atas-kuiz{
+  padding : 10px;
+  margin : 15px;
+  font-size: 30px;
+  list-style-type: none;
+}
+
+.li-bagian-atas-kuiz:hover{
+  background-color: rgb(177, 160, 160);
+  transition: .5s ease-in-out ;
+  transition-delay: .3s;
+  border-radius: 8px;
+}
+
+.a-bagian-atas-kuiz{
+  color : white;
+  text-decoration: none;
+}
+
+/* BAGIAN ISI KUIZ  */
+
+.bagian-isi-kuiz{
+ background-color: white;
+ width: 100%;
+ height: 80vh;
+ display: flex;
+ padding-top: 10px;
+ justify-content: center;
+ align-items: center;
+}
+
+.ul-bagianisi-kuiz{
+  box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+  -webkit-box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+  -moz-box-shadow: 5px 18px 37px 3px rgba(0,0,0,0.97);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
